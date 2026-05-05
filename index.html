@@ -5,15 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ORDN Studio</title>
 
-  <script>
-    window.location.href = "siteordnstudio.pdf";
-  </script>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      height: 100%;
+      overflow: hidden;
+    }
 
+    embed {
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
 </head>
 
-<body style="background:#000; color:white; display:flex; align-items:center; justify-content:center; height:100vh;">
+<body>
 
-  Abrindo...
+  <embed src="siteordnstudio.pdf#zoom=page-width" type="application/pdf">
 
 </body>
 </html>
